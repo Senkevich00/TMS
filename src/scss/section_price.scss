@@ -1,0 +1,91 @@
+.price {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+
+.price__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header__price {
+    width: 342px;
+    background-color: #333333;
+}
+
+.price__list-item {
+    text-align: center;
+}
+
+.price__name {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    border-bottom: 1px solid #f5f5f5;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price__cost {
+    font-size: 35px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.686;
+    border-bottom: 1px solid #f5f5f5;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.price__payment {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgba(255, 255, 255, 0.502);
+    font-weight: bold;
+    line-height: 1.714;
+    border-bottom: 5px solid #ff8b38;
+    height: 50px;
+}
+
+.price__description {
+    background-color: #fff;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(134, 135, 139);
+    text-transform: uppercase;
+    line-height: 1.714;
+    width: 342px;
+    height: 40px;
+}
+
+.price__popular {
+    background-color: #ff8b38;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.714;
+}
+
+.price__description:not(:last-child) {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.nbr {
+    border: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

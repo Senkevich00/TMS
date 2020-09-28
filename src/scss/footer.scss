@@ -1,0 +1,37 @@
+.container_footer {
+    margin: auto;
+    display: inline;
+}
+
+.footer {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    display: flex;
+}
+
+.copiright {
+    margin-top: 14px;
+}
+
+.footer__icon {
+    font-size: 24px;
+    color: rgb(204, 204, 204);
+    line-height: 1.2;
+}
+
+.footer__li {
+    display: inline;
+    margin-left: 31px;
+}
+
+.container_footer {
+    margin-top: 36px;
+}
+
+.copiright__style {
+    font-size: 12px;
+    font-family: "Open Sans";
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.2;
+}
